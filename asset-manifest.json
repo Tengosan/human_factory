@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/human_factory/static/css/main.b86f479b.chunk.css",
+    "main.js": "/human_factory/static/js/main.0c136e8c.chunk.js",
+    "main.js.map": "/human_factory/static/js/main.0c136e8c.chunk.js.map",
+    "runtime-main.js": "/human_factory/static/js/runtime-main.5985c502.js",
+    "runtime-main.js.map": "/human_factory/static/js/runtime-main.5985c502.js.map",
+    "static/js/2.93c671e4.chunk.js": "/human_factory/static/js/2.93c671e4.chunk.js",
+    "static/js/2.93c671e4.chunk.js.map": "/human_factory/static/js/2.93c671e4.chunk.js.map",
+    "index.html": "/human_factory/index.html",
+    "precache-manifest.123b2224db6915d1ef842cbb0ffa1984.js": "/human_factory/precache-manifest.123b2224db6915d1ef842cbb0ffa1984.js",
+    "service-worker.js": "/human_factory/service-worker.js",
+    "static/css/main.b86f479b.chunk.css.map": "/human_factory/static/css/main.b86f479b.chunk.css.map",
+    "static/js/2.93c671e4.chunk.js.LICENSE.txt": "/human_factory/static/js/2.93c671e4.chunk.js.LICENSE.txt",
+    "static/media/arm.png": "/human_factory/static/media/arm.ec5a97d2.png",
+    "static/media/cauldron.png": "/human_factory/static/media/cauldron.1dc3e23b.png",
+    "static/media/coin.png": "/human_factory/static/media/coin.2231bd48.png",
+    "static/media/cucumber.png": "/human_factory/static/media/cucumber.04c9c75c.png",
+    "static/media/leg.png": "/human_factory/static/media/leg.7c49c70b.png",
+    "static/media/logo.svg": "/human_factory/static/media/logo.5d5d9eef.svg",
+    "static/media/man.png": "/human_factory/static/media/man.96e0b25b.png",
+    "static/media/man_arms.png": "/human_factory/static/media/man_arms.3e6df71c.png",
+    "static/media/man_cucumber.png": "/human_factory/static/media/man_cucumber.a787313f.png",
+    "static/media/man_legs.png": "/human_factory/static/media/man_legs.7a253a20.png",
+    "static/media/message_cloud.png": "/human_factory/static/media/message_cloud.e9196300.png",
+    "static/media/woman.png": "/human_factory/static/media/woman.baa408f4.png",
+    "static/media/woman_arms.png": "/human_factory/static/media/woman_arms.81183523.png",
+    "static/media/woman_cucumber.png": "/human_factory/static/media/woman_cucumber.1ab9f969.png",
+    "static/media/woman_legs.png": "/human_factory/static/media/woman_legs.dc3f9ac4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5985c502.js",
+    "static/js/2.93c671e4.chunk.js",
+    "static/css/main.b86f479b.chunk.css",
+    "static/js/main.0c136e8c.chunk.js"
+  ]
+}
