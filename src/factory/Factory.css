@@ -1,0 +1,156 @@
+.Factory{
+    margin: 0 auto; 
+    height: 678px;
+    text-align: center;
+}
+
+.create_human{
+    position: relative;
+    margin: 0 auto; 
+    margin-top:20px;
+}
+
+.cauldron_container{
+    float: left;
+}
+
+.human_fragments, .human_fragments_container{
+    display: inline-block;
+    width:350px;
+    height: 678px;
+    float: left;
+}
+
+.uncolor{
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.red {
+    filter: hue-rotate(340deg);
+}
+
+.green{
+    filter: hue-rotate(100deg);
+}
+
+.blue{
+    filter: hue-rotate(190deg);
+}
+
+.ready {
+    background-color: limegreen;
+}
+
+.items_container{
+    width:150px;
+    height:678px;
+    display: inline-block;
+    float: left;
+}
+
+.settings{
+    text-align: left;
+    vertical-align: top;
+    padding-top:50px;
+    padding-left:100px;
+    float: left;
+    width: 550px;
+}
+
+.human_arm,
+.human_leg,
+.human_cucumber {
+    display: block;
+}
+
+.space {
+    margin-bottom:100px;
+}
+
+.arm_icon,
+.leg_icon,
+.cucumber_icon {
+    width: 50px;
+    height: 50px; 
+ 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.arm_fragment,
+.leg_fragment,
+.cucumber_fragment{
+    width:260px;
+}
+
+
+.gender_select,
+.color_select{
+    display: inline-block;
+    text-align: left;
+    width:150px;
+    font-size: large;
+    vertical-align: top;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+.human{
+    width:300px;
+    height:678px;
+    float: left;
+}
+
+.man, .woman{
+    width:350px;
+    height:678px;
+}
+
+.claudron{
+    width: 300px;
+    height:608px;
+
+}
+
+.cauldron_icon{
+    width:300px;
+    height: 300px;
+}
+
+.error_message{
+    position: relative;
+    text-align: center;
+    top:130px;
+    left:50px;
+    width:200px;
+    font-size: large;
+    font-family: fantasy;
+}
+
+.error_message_space{
+    width: 300px;
+    height: 300px;
+}
+
+.coins_count_requide, 
+.coin_required{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.coin_required{
+    width: 100px;
+    height: 100px;
+}
+
+.coins_for_create{
+    padding-top:20px;
+    margin: 0 auto; 
+    width: 180px;
+    vertical-align: center;
+}
+
+

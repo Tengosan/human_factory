@@ -1,0 +1,24 @@
+/* .Bag{
+  text-align: center;
+} */
+
+.ingredient-table{
+  margin:20px;
+  display:block;
+}
+
+.mar{
+  margin:70px;
+  margin-bottom:0px;
+  display:inline-block;
+}
+
+.ingredient-sell{
+  display:inline-block;
+}
+
+.sell_arm:hover{background-color: goldenrod;}
+.sell_leg:hover{background-color: saddlebrown;}
+.sell_cucumber:hover {background-color: limegreen;}
+
+
