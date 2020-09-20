@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc63c32c50c49266a393345452de418e",
+    "revision": "162c6cb881ab31929cdc270b3bac451a",
     "url": "/human_factory/index.html"
   },
   {
-    "revision": "91e2a11573a1cf121b30",
-    "url": "/human_factory/static/css/main.b86f479b.chunk.css"
+    "revision": "230a5d5e93c6cfe8d7a1",
+    "url": "/human_factory/static/css/main.c0b1d589.chunk.css"
   },
   {
     "revision": "94e17c18c3806ac9133b",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/human_factory/static/js/2.93c671e4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "91e2a11573a1cf121b30",
+    "revision": "230a5d5e93c6cfe8d7a1",
     "url": "/human_factory/static/js/main.0c136e8c.chunk.js"
   },
   {
