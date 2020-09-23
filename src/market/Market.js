@@ -19,16 +19,47 @@ class Market extends Component {
   }
 
   componentDidUpdate() {
+    if (this.props.coinCount < 2) {
+      document.getElementById('buy_arm').disabled = true;
+    }
+
+    if (this.props.coinCount < 3) {
+      document.getElementById('buy_leg').disabled = true;
+    }
+
+    if (this.props.coinCount < 5) {
+      document.getElementById('buy_cucumber').disabled = true;
+    }
+
+    if(this.props.coinCount === 0){
+      document.getElementById('buy_arm').disabled = true;
+    }
+    if(this.props.coinCount === 0){
+      document.getElementById('buy_leg').disabled = true;
+    }
+    if(this.props.coinCount === 0){
+      document.getElementById('buy_cucumber').disabled = true;
+    }
     if (this.props.coinCount >= 2) {
       document.getElementById('buy_arm').disabled = false;
+      document.getElementById("buy_arm").classList.add('ready');
+    }else {
+      document.getElementById("buy_arm").classList.remove('ready');
     }
 
     if (this.props.coinCount >= 3) {
       document.getElementById('buy_leg').disabled = false;
+      document.getElementById("buy_leg").classList.add('ready');
+    }
+    else{
+      document.getElementById("buy_leg").classList.remove('ready');
     }
 
     if (this.props.coinCount >= 5) {
       document.getElementById('buy_cucumber').disabled = false;
+      document.getElementById("buy_cucumber").classList.add('ready');
+    }else{
+      document.getElementById("buy_cucumber").classList.remove('ready');
     }
   }
 

@@ -1,8 +1,3 @@
-/* .Market{
-  text-align: center;
-} */
-
-
 .btn{
   background-color: darkgray;
   border: none;
@@ -17,10 +12,6 @@
   cursor: pointer;
   border-radius: 2px;
 }
-
-.buy_arm:hover{background-color: goldenrod;}
-.buy_leg:hover{background-color: saddlebrown;}
-.buy_cucumber:hover {background-color: limegreen;}
 
 .ingredient-buy{
   display:inline-block;

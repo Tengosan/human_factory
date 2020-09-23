@@ -20,37 +20,56 @@ class Bag extends Component {
   componentDidMount() {
     if (this.props.armsCount === 0) {
       document.getElementById("arm_count").style.color = "lightgray"
-      document.getElementById('arm_count').disabled = true;
+      document.getElementById('sell_arm').disabled = true;
     }
 
     if (this.props.legsCount === 0) {
       document.getElementById("leg_count").style.color = "lightgray"
-      document.getElementById('leg_count').disabled = true;
+      document.getElementById('sell_leg').disabled = true;
     }
 
     if (this.props.cucumbersCount === 0) {
       document.getElementById("cucumber_count").style.color = "lightgray"
-      document.getElementById('cucumber_count').disabled = true;
+      document.getElementById('sell_cucumber').disabled = true;
     }
   }
 
   componentDidUpdate() {
+    if (this.props.armsCount === 0) {
+      document.getElementById('sell_arm').disabled = true;
+    }
+    if (this.props.legsCount === 0) {
+      document.getElementById('sell_leg').disabled = true;
+    }
+    if (this.props.cucumbersCount === 0) {
+      document.getElementById('sell_cucumber').disabled = true;
+    }
+    
     if (this.props.armsCount > 0) {
-      document.getElementById("arm_count").style.color = "black"
+      document.getElementById("arm_count").style.color = "black";
+      document.getElementById("sell_arm").classList.add('ready');
+      document.getElementById('sell_arm').disabled = false;
     } else if (this.props.armsCount === 0) {
-      document.getElementById("arm_count").style.color = "lightgray"
+      document.getElementById("arm_count").style.color = "lightgray";
+      document.getElementById("sell_arm").classList.remove('ready');
     }
 
     if (this.props.legsCount > 0) {
-      document.getElementById("leg_count").style.color = "black"
+      document.getElementById("leg_count").style.color = "black";
+      document.getElementById("sell_leg").classList.add('ready');
+      document.getElementById('sell_leg').disabled = false;
     } else if (this.props.legsCount === 0) {
-      document.getElementById("leg_count").style.color = "lightgray"
+      document.getElementById("leg_count").style.color = "lightgray";
+      document.getElementById("sell_leg").classList.remove('ready');
     }
 
     if (this.props.cucumbersCount > 0) {
-      document.getElementById("cucumber_count").style.color = "black"
+      document.getElementById("cucumber_count").style.color = "black";
+      document.getElementById("sell_cucumber").classList.add('ready');
+      document.getElementById('sell_cucumber').disabled = false;
     } else if (this.props.cucumbersCount === 0) {
-      document.getElementById("cucumber_count").style.color = "lightgray"
+      document.getElementById("cucumber_count").style.color = "lightgray";
+      document.getElementById("sell_cucumber").classList.remove('ready');
     }
   }
 

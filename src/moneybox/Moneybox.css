@@ -1,7 +1,3 @@
-/* .Moneybox{
-  text-align: center;
-} */
-
 .ref {
   margin: 10px;
   color: #65a3be;
@@ -20,8 +16,4 @@
 .coin-img{
   width: 30px;
   height:50px;
-}
-
-.coin-box{
-  /*border: 1px solid gray;*/
 }

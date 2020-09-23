@@ -1,7 +1,7 @@
 .Factory{
     margin: 0 auto; 
     width:1200px;
-    height: 678px;
+    height: 950px;
     text-align: center;
 }
 
@@ -11,12 +11,11 @@
     margin-top:20px;
 }
 
-.cauldron_container{
+.claudron_container{
     float: left;
 }
 
 .human_fragments, .human_fragments_container{
-    display: inline-block;
     width:350px;
     height: 678px;
     float: left;
@@ -40,13 +39,12 @@
 }
 
 .ready {
-    background-color: limegreen;
+    background-color: rgb(83, 197, 83)
 }
 
 .items_container{
     width:150px;
     height:678px;
-    display: inline-block;
     float: left;
 }
 
@@ -91,7 +89,7 @@
     display: inline-block;
     text-align: left;
     width:150px;
-    font-size: large;
+    font-size: 1.2em;
     vertical-align: top;
 }
 
@@ -110,13 +108,13 @@ input{
     height:678px;
 }
 
+
 .claudron{
     width: 300px;
     height:608px;
-
 }
 
-.cauldron_icon{
+.claudron_icon{
     width:300px;
     height: 300px;
 }
@@ -124,11 +122,11 @@ input{
 .error_message{
     position: relative;
     text-align: center;
-    top:130px;
+    top:160px;
     left:50px;
     width:200px;
-    font-size: large;
-    font-family: fantasy;
+    font-size: 1.3em;
+    font-family: cursive;
 }
 
 .error_message_space{
@@ -155,3 +153,43 @@ input{
 }
 
 
+/* .radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+  }
+  
+  .radio-item input[type='radio'] {
+    display: none;
+  }
+  
+  .radio-item label {
+    color: #666;
+    font-weight: normal;
+  }
+  
+  .radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #004c97;
+    background-color: transparent;
+  }
+  
+  .radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background:pink;
+  } */
