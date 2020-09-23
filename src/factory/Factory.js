@@ -693,37 +693,37 @@ class Factory extends Component {
         <div className="settings">
           <div className="gender_select" onChange={this.onChangeValue}>
             <p>Пол:</p>
-            <label>Мужской</label>
-            <input className="male" id="male" type="radio" value="Male" name="gender" />
-            <label>Женский</label>
-            <input className="female" id="female" type="radio" value="Female" name="gender" />
-
-            {/* <div className="radio-item">
-              <input type="radio" id="ritema" name="ritem" value="ropt1"></input>
-              <label for="ritema">Option 1</label>
+            <div className="male">
+              <input  id="male" type="radio" value="Male" name="gender" />
+              <label htmlFor="male">Мужской</label>
             </div>
-
-            <div className="radio-item">
-              <input type="radio" id="ritemb" name="ritem" value="ropt2"></input>
-              <label for="ritemb">Option 2</label>
-            </div> */}
+            <div className="female">
+              <input  id="female" type="radio" value="Female" name="gender" />
+              <label htmlFor="female">Женский</label>
+            </div>
           </div>
 
           <div className="color_select" onChange={this.onChangeColor}>
             <p>Цвет:</p>
-            <label>Красный</label>
-            <input className="red" id="red" type="radio" value="Red" name="color" />
-            <label>Зеленый</label>
-            <input className="green" id="green" type="radio" value="Green" name="color" />
-            <br />
-            <label>Синий</label>
-            <input className="blue" id="blue" type="radio" value="Blue" name="color" />
-            <br />
-            <label>Стандартный</label>
-            <input className="defaultcolor" id="defaultcolor" type="radio" value="Defaultcolor" name="color" />
+            <div className="red_color">
+              <input  id="red" type="radio" value="Red" name="color"/>
+              <label htmlFor="red">Красный
+              </label>
+            </div>
+            <div className="green_color">
+              <input  id="green" type="radio" value="Green" name="color" />
+              <label htmlFor="green">Зеленый</label>
+            </div>
+            <div className="blue_color">
+              <input  id="blue" type="radio" value="Blue" name="color" />
+              <label htmlFor="blue">Синий</label>
+            </div>
+            <div className="default_color">
+              <input id="defaultcolor" type="radio" value="Defaultcolor" name="color" />
+              <label htmlFor="defaultcolor">Стандартный</label>
+            </div>
           </div>
         </div>
-
       </div>
     );
   }

@@ -1,27 +1,28 @@
-.Factory{
-    margin: 0 auto; 
-    width:1200px;
+.Factory {
+    margin: 0 auto;
+    width: 1200px;
     height: 950px;
     text-align: center;
 }
 
-.create_human{
+.create_human {
     position: relative;
-    margin: 0 auto; 
-    margin-top:20px;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
-.claudron_container{
+.claudron_container {
     float: left;
 }
 
-.human_fragments, .human_fragments_container{
-    width:350px;
+.human_fragments,
+.human_fragments_container {
+    width: 350px;
     height: 678px;
     float: left;
 }
 
-.uncolor{
+.uncolor {
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
 }
@@ -30,29 +31,29 @@
     filter: hue-rotate(340deg);
 }
 
-.green{
+.green {
     filter: hue-rotate(100deg);
 }
 
-.blue{
+.blue {
     filter: hue-rotate(190deg);
 }
 
 .ready {
-    background-color: rgb(83, 197, 83)
+    background-color: rgb(83, 197, 83);
 }
 
-.items_container{
-    width:150px;
-    height:678px;
+.items_container {
+    width: 150px;
+    height: 678px;
     float: left;
 }
 
-.settings{
+.settings {
     text-align: left;
     vertical-align: top;
-    padding-top:50px;
-    padding-left:100px;
+    padding-top: 50px;
+    padding-left: 100px;
     float: left;
     width: 550px;
 }
@@ -64,132 +65,248 @@
 }
 
 .space {
-    margin-bottom:100px;
+    margin-bottom: 100px;
 }
 
 .arm_icon,
 .leg_icon,
 .cucumber_icon {
     width: 50px;
-    height: 50px; 
- 
+    height: 50px;
+
     display: inline-block;
     vertical-align: middle;
 }
 
 .arm_fragment,
 .leg_fragment,
-.cucumber_fragment{
-    width:260px;
+.cucumber_fragment {
+    width: 260px;
 }
 
-
 .gender_select,
-.color_select{
+.color_select {
     display: inline-block;
     text-align: left;
-    width:150px;
+    width: 180px;
     font-size: 1.2em;
     vertical-align: top;
 }
 
-input{
+input {
     margin-bottom: 15px;
 }
 
-.human{
-    width:300px;
-    height:678px;
+.human {
+    width: 300px;
+    height: 678px;
     float: left;
 }
 
-.man, .woman{
-    width:350px;
-    height:678px;
+.man,
+.woman {
+    width: 350px;
+    height: 678px;
 }
 
-
-.claudron{
+.claudron {
     width: 300px;
-    height:608px;
+    height: 608px;
 }
 
-.claudron_icon{
-    width:300px;
+.claudron_icon {
+    width: 300px;
     height: 300px;
 }
 
-.error_message{
+.error_message {
     position: relative;
     text-align: center;
-    top:160px;
-    left:50px;
-    width:200px;
+    top: 160px;
+    left: 50px;
+    width: 200px;
     font-size: 1.3em;
     font-family: cursive;
 }
 
-.error_message_space{
+.error_message_space {
     width: 300px;
     height: 300px;
 }
 
-.coins_count_requide, 
-.coin_required{
+.coins_count_requide,
+.coin_required {
     display: inline-block;
     vertical-align: middle;
 }
 
-.coin_required{
+.coin_required {
     width: 100px;
     height: 100px;
 }
 
-.coins_for_create{
-    padding-top:20px;
-    margin: 0 auto; 
+.coins_for_create {
+    padding-top: 20px;
+    margin: 0 auto;
     width: 180px;
     vertical-align: center;
 }
 
+.gender_select,
+.color_select {
+    color: #666;
+    font-weight: normal;
+}
 
-/* .radio-item {
+.male,
+.female{
     display: inline-block;
     position: relative;
     padding: 0 6px;
     margin: 10px 0 0;
-  }
-  
-  .radio-item input[type='radio'] {
+}
+
+.male input[type="radio"],
+.female input[type="radio"] {
     display: none;
-  }
-  
-  .radio-item label {
+}
+
+.male label,
+.female label {
     color: #666;
     font-weight: normal;
-  }
-  
-  .radio-item label:before {
+}
+
+/*радиус кольца input*/
+.male label:before,
+.female label:before {
     content: " ";
     display: inline-block;
     position: relative;
-    top: 5px;
+    top: 4px;
     margin: 0 5px 0 0;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 11px;
-    border: 2px solid #004c97;
+    border: 2px solid lightgray;
     background-color: transparent;
-  }
-  
-  .radio-item input[type=radio]:checked + label:after {
+}
+
+/*радиус точки input*/
+.male input[type="radio"]:checked + label:after {
     border-radius: 11px;
-    width: 12px;
-    height: 12px;
+    width: 13px;
+    height: 13px;
     position: absolute;
-    top: 9px;
-    left: 10px;
+    top: 7px;
+    left: 9px;
     content: " ";
     display: block;
-    background:pink;
-  } */
+    background: lightblue;
+}
+
+/*радиус точки input*/
+.female input[type="radio"]:checked + label:after {
+    border-radius: 11px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    content: " ";
+    display: block;
+    background: pink;
+}
+
+.red_color,
+.green_color,
+.blue_color,
+.default_color{
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+}
+
+
+.red_color input[type="radio"],
+.green_color input[type="radio"],
+.blue_color input[type="radio"],
+.default_color input[type="radio"] {
+    display: none;
+}
+
+.red_color,
+.green_color,
+.blue_color,
+.default_color{
+    color: #666;
+    font-weight: normal;
+}
+
+
+.red_color label:before,
+.green_color label:before,
+.blue_color label:before,
+.default_color label:before{
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    margin: 0 5px 0 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 11px;
+    border: 2px solid lightgray;
+    background-color: transparent;
+}
+
+/*радиус точки input*/
+.red_color  input[type="radio"]:checked + label:after {
+    border-radius: 11px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    content: " ";
+    display: block;
+    background: rgb(238, 1, 1);
+}
+
+/*радиус точки input*/
+.green_color input[type="radio"]:checked + label:after {
+    border-radius: 11px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    content: " ";
+    display: block;
+    background: rgb(80, 207, 80);
+}
+
+.blue_color input[type="radio"]:checked + label:after {
+    border-radius: 11px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    content: " ";
+    display: block;
+    background: rgb(17, 130, 236);
+}
+
+.default_color input[type="radio"]:checked + label:after {
+    border-radius: 11px;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 7px;
+    left: 9px;
+    content: " ";
+    display: block;
+    background: brown;
+}
