@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/human_factory/static/css/main.00305345.chunk.css",
-    "main.js": "/human_factory/static/js/main.1f6a075f.chunk.js",
-    "main.js.map": "/human_factory/static/js/main.1f6a075f.chunk.js.map",
+    "main.css": "/human_factory/static/css/main.3a67f217.chunk.css",
+    "main.js": "/human_factory/static/js/main.d9ff40c4.chunk.js",
+    "main.js.map": "/human_factory/static/js/main.d9ff40c4.chunk.js.map",
     "runtime-main.js": "/human_factory/static/js/runtime-main.5985c502.js",
     "runtime-main.js.map": "/human_factory/static/js/runtime-main.5985c502.js.map",
     "static/js/2.f90b2297.chunk.js": "/human_factory/static/js/2.f90b2297.chunk.js",
     "static/js/2.f90b2297.chunk.js.map": "/human_factory/static/js/2.f90b2297.chunk.js.map",
     "index.html": "/human_factory/index.html",
-    "precache-manifest.c9e8da3e03a3915697a43dbfa0f4e9d2.js": "/human_factory/precache-manifest.c9e8da3e03a3915697a43dbfa0f4e9d2.js",
+    "precache-manifest.fdbc3685190b11ec2d9fbd460338a3c8.js": "/human_factory/precache-manifest.fdbc3685190b11ec2d9fbd460338a3c8.js",
     "service-worker.js": "/human_factory/service-worker.js",
-    "static/css/main.00305345.chunk.css.map": "/human_factory/static/css/main.00305345.chunk.css.map",
+    "static/css/main.3a67f217.chunk.css.map": "/human_factory/static/css/main.3a67f217.chunk.css.map",
     "static/js/2.f90b2297.chunk.js.LICENSE.txt": "/human_factory/static/js/2.f90b2297.chunk.js.LICENSE.txt",
     "static/media/arm.png": "/human_factory/static/media/arm.ec5a97d2.png",
     "static/media/claudron.png": "/human_factory/static/media/claudron.1dc3e23b.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.5985c502.js",
     "static/js/2.f90b2297.chunk.js",
-    "static/css/main.00305345.chunk.css",
-    "static/js/main.1f6a075f.chunk.js"
+    "static/css/main.3a67f217.chunk.css",
+    "static/js/main.d9ff40c4.chunk.js"
   ]
 }
