@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "162c6cb881ab31929cdc270b3bac451a",
+    "revision": "3b342b56c4dafd7ffa8066ec4a53c564",
     "url": "/human_factory/index.html"
   },
   {
-    "revision": "230a5d5e93c6cfe8d7a1",
-    "url": "/human_factory/static/css/main.c0b1d589.chunk.css"
+    "revision": "358f8640d63938399201",
+    "url": "/human_factory/static/css/main.00305345.chunk.css"
   },
   {
-    "revision": "94e17c18c3806ac9133b",
-    "url": "/human_factory/static/js/2.93c671e4.chunk.js"
+    "revision": "35dd71746664f8942c68",
+    "url": "/human_factory/static/js/2.f90b2297.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/human_factory/static/js/2.93c671e4.chunk.js.LICENSE.txt"
+    "url": "/human_factory/static/js/2.f90b2297.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "230a5d5e93c6cfe8d7a1",
-    "url": "/human_factory/static/js/main.0c136e8c.chunk.js"
+    "revision": "358f8640d63938399201",
+    "url": "/human_factory/static/js/main.1f6a075f.chunk.js"
   },
   {
     "revision": "48f316b4e00b9e3c018f",
@@ -29,7 +29,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "1dc3e23be15361dc506dbfe63dd3fa81",
-    "url": "/human_factory/static/media/cauldron.1dc3e23b.png"
+    "url": "/human_factory/static/media/claudron.1dc3e23b.png"
   },
   {
     "revision": "2231bd489838e1e2319c3a493bc99443",
@@ -42,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c49c70bd64c56ff47d501031217b421",
     "url": "/human_factory/static/media/leg.7c49c70b.png"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/human_factory/static/media/logo.5d5d9eef.svg"
   },
   {
     "revision": "96e0b25b5bca97142c830c3468f35d71",
