@@ -244,7 +244,7 @@ input {
     font-weight: normal;
 }
 
-
+/*радиус кольца input*/
 .red_color label:before,
 .green_color label:before,
 .blue_color label:before,
@@ -287,6 +287,7 @@ input {
     background: rgb(80, 207, 80);
 }
 
+/*радиус точки input*/
 .blue_color input[type="radio"]:checked + label:after {
     border-radius: 11px;
     width: 13px;
@@ -299,6 +300,7 @@ input {
     background: rgb(17, 130, 236);
 }
 
+/*радиус точки input*/
 .default_color input[type="radio"]:checked + label:after {
     border-radius: 11px;
     width: 13px;
